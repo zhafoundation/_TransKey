@@ -1,0 +1,253 @@
+.edu{
+    
+    /* background-color: blue; */
+    background-image: url('../../../../public/img/book.jpg.png');
+    background-size: cover; /* Adjusts how the image is displayed */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-position: center center;
+    height: 900px;
+    display: block;
+    position: relative;
+}
+.edutitle{
+    /* margin-top: 120px; */
+    height: 500px;
+}
+
+/* .edu::before {
+    content: "THE FUTURE OF EDUCATION, RESEARCH, AND INNOVATION";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px; 
+    text-align: center; 
+  } */
+
+
+  .edu h1{
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center both vertically and horizontally */
+    color: white; /* Text color */
+    font-size: 44px; /* Font size */
+    /* background-color: rgba(0, 0, 0, 0.6); Background color with opacity */
+    padding: 10px 20px; /* Padding around text */
+    border-radius: 5px;
+    font-weight: bolder;
+
+  }
+
+  .commontext{
+    margin-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .commontext h1{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+  .commontext h1 span{
+    color: rgba(55, 138, 255, 0.819);
+
+  }
+
+  table {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(100, 100, 100);
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+  .commontext h4{
+    color: rgb(43, 64, 90);
+  }
+
+  th, td {
+    padding: 10px;
+    border-right: 2px solid rgb(255, 255, 255);
+    text-align: left;
+    color: white;
+  }
+
+  .commontab{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+  .commontab img{
+    width: 400px;
+
+  }
+  .commontabtwo img{
+    width: 400px;
+
+  }
+
+  .commontabtwo{
+    /* text-align: left; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-self: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+  .commontabtwo .commontext{
+    text-align: left;
+  }
+  .commontab .commontext{
+    text-align: right;
+  }
+
+
+
+  
+  .commontextg{
+    margin-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .commontextg h1{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+  .commontextg h1 span{
+    color: rgba(55, 138, 255, 0.819);
+
+  }
+
+
+
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+  .sectionlab{
+    display: block;
+    margin: 0 auto;
+  }
+  .sectionmob{
+    display: none;
+  }
+
+
+  
+
+  @media only screen and (max-width: 768px) {
+
+    .commontab{
+        flex-direction: column;
+
+
+    }
+    .commontabtwo{
+        flex-direction: column;
+
+    }
+
+    table {
+        width: 100%;
+        /* overflow-x: scroll; */
+        margin: 0 auto;
+        background-color: rgb(100, 100, 100);
+        border-collapse: collapse;
+        border: 1px solid black;
+      }
+    
+      th, td {
+        padding: 3px;
+        overflow-x: scroll;
+       
+      }
+      .commontabtwo .commontext{
+        text-align: left;
+      }
+      .commontab .commontext{
+        text-align: left;
+      }
+
+      
+  .commontab{
+    align-self: center;
+    width: 100%;
+    align-items: center;
+   margin-bottom: 20px;
+  }
+
+  .commontabtwo{
+    align-self: center;
+    width: 100%;
+    align-items: center;
+   margin-bottom: 20px;
+  }
+
+
+  .edu{
+    
+    background-image: url('../../../../public/img/bookmob.png');
+    background-size: cover; /* Adjusts how the image is displayed */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-position:center ;
+   
+}
+    
+.sectionlab{
+  display: none;
+}
+.sectionmob{
+  display: block;
+  margin: 0 auto;
+}
+
+    
+  }
+ 

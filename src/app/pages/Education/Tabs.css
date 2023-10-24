@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Open+Sans:wght@300;400;500&display=swap');
+
+body {
+ font-family: 'Open Sans', sans-serif;
+}
+
+.question {
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid black;
+  -webkit-box-shadow: 5px 5px 15px -9px #000000; 
+  box-shadow: 5px 5px 15px -9px #9d9d9d;
+}
+
+.question::before {
+  content: "\2039";
+  display: inline-block;
+  transform: rotate(180deg);
+  padding: 10px;
+}
+
+.question.active::before {
+  content: "\2039";
+  display: inline-block;
+  transform: rotate(270deg);
+}
+
+dl {
+  margin: 0;
+}
+
+dt {
+  margin: .5em;
+}
+
+dd {
+  margin: 1em;
+}
+
+#root {
+  /* position: relative; */
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 90%;
+  height: 50%;
+  margin: auto;
+}
